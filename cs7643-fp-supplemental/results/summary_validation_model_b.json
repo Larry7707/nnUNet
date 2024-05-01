@@ -1,0 +1,202 @@
+{
+    "foreground_mean": {
+        "Dice": 0.21154792113314258,
+        "FN": 1360.4545454545455,
+        "FP": 1116.1818181818182,
+        "IoU": 0.1540258304261773,
+        "TN": 8384032.909090909,
+        "TP": 2098.4545454545455,
+        "n_pred": 3214.6363636363635,
+        "n_ref": 3458.909090909091
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.21154792113314258,
+            "FN": 1360.4545454545455,
+            "FP": 1116.1818181818182,
+            "IoU": 0.1540258304261773,
+            "TN": 8384032.909090909,
+            "TP": 2098.4545454545455,
+            "n_pred": 3214.6363636363635,
+            "n_ref": 3458.909090909091
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9123629363020005,
+                    "FN": 1887,
+                    "FP": 2301,
+                    "IoU": 0.838848699399723,
+                    "TN": 8362620,
+                    "TP": 21800,
+                    "n_pred": 24101,
+                    "n_ref": 23687
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\000425_01_01_058_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\000425_01_01_058_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1294,
+                    "FP": 37,
+                    "IoU": 0.0,
+                    "TN": 8387277,
+                    "TP": 0,
+                    "n_pred": 37,
+                    "n_ref": 1294
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\000709_02_01_377_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\000709_02_01_377_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 4080,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8384528,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 4080
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\001457_01_01_275_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\001457_01_01_275_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4259927797833935,
+                    "FN": 813,
+                    "FP": 618,
+                    "IoU": 0.2706422018348624,
+                    "TN": 8386646,
+                    "TP": 531,
+                    "n_pred": 1149,
+                    "n_ref": 1344
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\001711_03_01_030_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\001711_03_01_030_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 287,
+                    "FP": 5790,
+                    "IoU": 0.0,
+                    "TN": 8382531,
+                    "TP": 0,
+                    "n_pred": 5790,
+                    "n_ref": 287
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\002035_02_01_039_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\002035_02_01_039_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.10636900853578464,
+                    "FN": 799,
+                    "FP": 562,
+                    "IoU": 0.05617198335644938,
+                    "TN": 8387166,
+                    "TP": 81,
+                    "n_pred": 643,
+                    "n_ref": 880
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\002187_01_01_206_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\002187_01_01_206_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 477,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8388131,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 477
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\002730_02_01_311_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\002730_02_01_311_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 4784,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8383824,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 4784
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\002809_04_02_411_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\002809_04_02_411_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.23754789272030652,
+                    "FN": 22,
+                    "FP": 575,
+                    "IoU": 0.13478260869565217,
+                    "TN": 8387918,
+                    "TP": 93,
+                    "n_pred": 668,
+                    "n_ref": 115
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\002935_06_03_109_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\002935_06_03_109_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4281298299845441,
+                    "FN": 336,
+                    "FP": 404,
+                    "IoU": 0.2723697148475909,
+                    "TN": 8387591,
+                    "TP": 277,
+                    "n_pred": 681,
+                    "n_ref": 613
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\003151_01_01_085_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\003151_01_01_085_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.21662468513853905,
+                    "FN": 186,
+                    "FP": 1991,
+                    "IoU": 0.12146892655367232,
+                    "TN": 8386130,
+                    "TP": 301,
+                    "n_pred": 2292,
+                    "n_ref": 487
+                }
+            },
+            "prediction_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_results\\Dataset001_liver\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_0\\validation\\003723_01_02_208_lesion_01.nii.gz",
+            "reference_file": "C:\\Users\\Xianla\\OneDrive\\Desktop\\CS-7643\\nnUNet_preprocessed\\Dataset001_liver\\gt_segmentations\\003723_01_02_208_lesion_01.nii.gz"
+        }
+    ]
+}

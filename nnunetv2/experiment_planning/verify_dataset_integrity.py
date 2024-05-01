@@ -178,8 +178,13 @@ def verify_dataset_integrity(folder: str, num_processes: int = 8) -> None:
     else:
         # old code that uses imagestr and labelstr folders
         labelfiles = subfiles(join(folder, 'labelsTr'), suffix=file_ending, join=False)
+#        label_identifiers = [i[:-len(file_ending)-5] for i in labelfiles]
         label_identifiers = [i[:-len(file_ending)] for i in labelfiles]
         labels_present = [i in label_identifiers for i in dataset.keys()]
+        print('labelfiles', labelfiles)
+        print('label_identifiers', label_identifiers)
+        print('labels_present', labels_present)
+        print('daataset', dataset.keys())
         missing = [i for j, i in enumerate(dataset.keys()) if not labels_present[j]]
         assert all(labels_present), f'not all training cases have a label file in labelsTr. Fix that. Missing: {missing}'
 
@@ -197,7 +202,9 @@ def verify_dataset_integrity(folder: str, num_processes: int = 8) -> None:
         labels_valid_consecutive), f'Labels must be in consecutive order (0, 1, 2, ...). The labels {np.array(expected_labels)[1:][~labels_valid_consecutive]} do not satisfy this restriction'
 
     # determine reader/writer class
-    reader_writer_class = determine_reader_writer_from_dataset_json(dataset_json, dataset[dataset.keys().__iter__().__next__()]['images'][0])
+    print(dataset[dataset.keys().__iter__().__next__()])
+    reader_writer_class = determine_reader_writer_from_dataset_json(dataset_json, dataset[dataset.keys().__iter__().__next__()]['label'])
+#    reader_writer_class = determine_reader_writer_from_dataset_json(dataset_json, dataset[dataset.keys().__iter__().__next__()]['images'][0])
 
     # check whether only the desired labels are present
     with multiprocessing.get_context("spawn").Pool(num_processes) as p:
@@ -211,6 +218,7 @@ def verify_dataset_integrity(folder: str, num_processes: int = 8) -> None:
                 'Some segmentation images contained unexpected labels. Please check text output above to see which one(s).')
 
         # check whether shapes and spacings match between images and labels
+        print(image_files)
         result = p.starmap(
             check_cases,
             zip(image_files, labelfiles, [num_modalities] * expected_num_training,

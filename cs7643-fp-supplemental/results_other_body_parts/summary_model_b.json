@@ -1,0 +1,270 @@
+{
+    "foreground_mean": {
+        "Dice": NaN,
+        "FN": 440.0,
+        "FP": 650.6666666666666,
+        "IoU": NaN,
+        "TN": 8387500.722222222,
+        "TP": 16.61111111111111,
+        "n_pred": 667.2777777777778,
+        "n_ref": 456.6111111111111
+    },
+    "mean": {
+        "(1,)": {
+            "Dice": 0.07565307077709939,
+            "FN": 880.0,
+            "FP": 1301.3333333333333,
+            "IoU": 0.0568757709289964,
+            "TN": 8386393.444444444,
+            "TP": 33.22222222222222,
+            "n_pred": 1334.5555555555557,
+            "n_ref": 913.2222222222222
+        },
+        "(2,)": {
+            "Dice": NaN,
+            "FN": 0.0,
+            "FP": 0.0,
+            "IoU": NaN,
+            "TN": 8388608.0,
+            "TP": 0.0,
+            "n_pred": 0.0,
+            "n_ref": 0.0
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 117,
+                    "FP": 327,
+                    "IoU": 0.0,
+                    "TN": 8388164,
+                    "TP": 0,
+                    "n_pred": 327,
+                    "n_ref": 117
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000010_02_02_100_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000010_02_02_100_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 134,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8388474,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 134
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000026_06_01_257_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000026_06_01_257_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.6742138364779874,
+                    "FN": 184,
+                    "FP": 75,
+                    "IoU": 0.50853889943074,
+                    "TN": 8388081,
+                    "TP": 268,
+                    "n_pred": 343,
+                    "n_ref": 452
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000028_02_01_059_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000028_02_01_059_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0066638005159071366,
+                    "FN": 381,
+                    "FP": 8861,
+                    "IoU": 0.003343038930227542,
+                    "TN": 8379335,
+                    "TP": 31,
+                    "n_pred": 8892,
+                    "n_ref": 412
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000037_11_01_109_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000037_11_01_109_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 112,
+                    "FP": 1967,
+                    "IoU": 0.0,
+                    "TN": 8386529,
+                    "TP": 0,
+                    "n_pred": 1967,
+                    "n_ref": 112
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000038_01_01_050_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000038_01_01_050_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 382,
+                    "FP": 224,
+                    "IoU": 0.0,
+                    "TN": 8388002,
+                    "TP": 0,
+                    "n_pred": 224,
+                    "n_ref": 382
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000103_02_01_060_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000103_02_01_060_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 4305,
+                    "FP": 55,
+                    "IoU": 0.0,
+                    "TN": 8384248,
+                    "TP": 0,
+                    "n_pred": 55,
+                    "n_ref": 4305
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000103_02_01_168_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000103_02_01_168_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 1075,
+                    "FP": 203,
+                    "IoU": 0.0,
+                    "TN": 8387330,
+                    "TP": 0,
+                    "n_pred": 203,
+                    "n_ref": 1075
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000122_04_02_150_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000122_04_02_150_lesion_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1,)": {
+                    "Dice": 0.0,
+                    "FN": 1230,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8387378,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1230
+                },
+                "(2,)": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8388608,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_pred/ModelA/000281_03_01_291_lesion_01.nii.gz",
+            "reference_file": "/content/drive/MyDrive/cs7643-finalproject/Final-validation/Label_true/000281_03_01_291_lesion_01.nii.gz"
+        }
+    ]
+}

@@ -146,7 +146,7 @@ class nnUNetTrainer(object):
         self.oversample_foreground_percent = 0.33
         self.num_iterations_per_epoch = 250
         self.num_val_iterations_per_epoch = 50
-        self.num_epochs = 1000
+        self.num_epochs = 75
         self.current_epoch = 0
         self.enable_deep_supervision = True
 
@@ -232,6 +232,8 @@ class nnUNetTrainer(object):
     def _do_i_compile(self):
         # new default: compile is enabled!
         if 'nnUNet_compile' not in os.environ.keys():
+            # false by LL
+            return False
             return True
         else:
             return os.environ['nnUNet_compile'].lower() in ('true', '1', 't')
